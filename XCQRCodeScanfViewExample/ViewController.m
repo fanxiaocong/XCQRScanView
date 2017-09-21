@@ -8,32 +8,17 @@
 
 #import "ViewController.h"
 
-#import "UIApplication+XCExtension.h"
-
 @interface ViewController ()
 
 @end
+
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
-//    if ([[UIApplication sharedApplication] canUsePhotoAlbum])
-//    {
-//        NSLog(@"可以打开");
-//    }
-//    else
-//    {
-//        NSLog(@"不可以打开");
-//    }
-    
-    [[UIApplication sharedApplication] vibrate];
-}
 
 
 @end

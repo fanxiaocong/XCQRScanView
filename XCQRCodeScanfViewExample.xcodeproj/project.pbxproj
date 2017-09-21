@@ -17,10 +17,7 @@
 		1E088FE01E7280AB00FE43FF /* XCQRCodeScanfViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088FDF1E7280AB00FE43FF /* XCQRCodeScanfViewExampleUITests.m */; };
 		1E088FF01E7280EC00FE43FF /* XCQRCodeScanfView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088FEF1E7280EC00FE43FF /* XCQRCodeScanfView.m */; };
 		1E088FF91E763A9300FE43FF /* UIView+XCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088FF81E763A9300FE43FF /* UIView+XCExtension.m */; };
-		1E088FFF1E763D5800FE43FF /* ocr_flash-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E088FFB1E763D5800FE43FF /* ocr_flash-off.png */; };
-		1E0890001E763D5800FE43FF /* ocr_flash-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E088FFC1E763D5800FE43FF /* ocr_flash-on.png */; };
-		1E0890011E763D5800FE43FF /* QRImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E088FFD1E763D5800FE43FF /* QRImage.png */; };
-		1E0890021E763D5800FE43FF /* QRLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E088FFE1E763D5800FE43FF /* QRLine.png */; };
+		1E0BED731F73538100D3B5FB /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E0BED721F73538100D3B5FB /* resource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +58,7 @@
 		1E088FEF1E7280EC00FE43FF /* XCQRCodeScanfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCQRCodeScanfView.m; sourceTree = "<group>"; };
 		1E088FF71E763A9300FE43FF /* UIView+XCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XCExtension.h"; sourceTree = "<group>"; };
 		1E088FF81E763A9300FE43FF /* UIView+XCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCExtension.m"; sourceTree = "<group>"; };
-		1E088FFB1E763D5800FE43FF /* ocr_flash-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ocr_flash-off.png"; sourceTree = "<group>"; };
-		1E088FFC1E763D5800FE43FF /* ocr_flash-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ocr_flash-on.png"; sourceTree = "<group>"; };
-		1E088FFD1E763D5800FE43FF /* QRImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QRImage.png; sourceTree = "<group>"; };
-		1E088FFE1E763D5800FE43FF /* QRLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QRLine.png; sourceTree = "<group>"; };
+		1E0BED721F73538100D3B5FB /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +126,6 @@
 		1E088FBA1E7280AB00FE43FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1E088FFA1E763D5100FE43FF /* images */,
 				1E088FBB1E7280AB00FE43FF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -159,23 +152,13 @@
 		1E088FED1E7280D400FE43FF /* XCQRCodeScanfView */ = {
 			isa = PBXGroup;
 			children = (
+				1E0BED721F73538100D3B5FB /* resource.bundle */,
 				1E088FEE1E7280EC00FE43FF /* XCQRCodeScanfView.h */,
 				1E088FEF1E7280EC00FE43FF /* XCQRCodeScanfView.m */,
 				1E088FF71E763A9300FE43FF /* UIView+XCExtension.h */,
 				1E088FF81E763A9300FE43FF /* UIView+XCExtension.m */,
 			);
 			path = XCQRCodeScanfView;
-			sourceTree = "<group>";
-		};
-		1E088FFA1E763D5100FE43FF /* images */ = {
-			isa = PBXGroup;
-			children = (
-				1E088FFB1E763D5800FE43FF /* ocr_flash-off.png */,
-				1E088FFC1E763D5800FE43FF /* ocr_flash-on.png */,
-				1E088FFD1E763D5800FE43FF /* QRImage.png */,
-				1E088FFE1E763D5800FE43FF /* QRLine.png */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,13 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0890011E763D5800FE43FF /* QRImage.png in Resources */,
-				1E0890021E763D5800FE43FF /* QRLine.png in Resources */,
-				1E0890001E763D5800FE43FF /* ocr_flash-on.png in Resources */,
 				1E088FCA1E7280AB00FE43FF /* LaunchScreen.storyboard in Resources */,
-				1E088FFF1E763D5800FE43FF /* ocr_flash-off.png in Resources */,
 				1E088FC71E7280AB00FE43FF /* Assets.xcassets in Resources */,
 				1E088FC51E7280AB00FE43FF /* Main.storyboard in Resources */,
+				1E0BED731F73538100D3B5FB /* resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

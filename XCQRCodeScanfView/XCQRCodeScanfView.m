@@ -80,7 +80,7 @@
     scanfImgView.centerX = SELF_WIDTH * 0.5;
     scanfImgView.centerY = SELF_HEIGHT * 0.4;
     scanfImgView.backgroundColor = [UIColor clearColor];
-    scanfImgView.image = [UIImage imageNamed:@"QRImage.png"];
+    scanfImgView.image = [UIImage imageNamed:@"resource.bundle/QRImage.png"];
     self.scanfImgView = scanfImgView;
     [self addSubview:scanfImgView];
     
@@ -92,7 +92,7 @@
     CGFloat lineX = scanfImgView.left + marginLine;
     CGFloat lineY = scanfImgView.top + marginLine;
     UIImageView *lineImgView = [[UIImageView alloc] initWithFrame:CGRectMake(lineX, lineY, lineW, lineH)];
-    lineImgView.image = [UIImage imageNamed:@"QRLine.png"];
+    lineImgView.image = [UIImage imageNamed:@"resource.bundle/QRLine.png"];
     self.lineImgView = lineImgView;
     [self addSubview:lineImgView];
     
@@ -140,8 +140,8 @@
     /*⏰ ----- 闪光灯按钮 ----- ⏰*/
     UIButton *lightButton = [UIButton buttonWithType:UIButtonTypeCustom];
     lightButton.frame = CGRectMake(40, 40, 40, 40);
-    [lightButton setImage:[UIImage imageNamed:@"ocr_flash-off.png"] forState:UIControlStateNormal];
-    [lightButton setImage:[UIImage imageNamed:@"ocr_flash-on.png"] forState:UIControlStateSelected];
+    [lightButton setImage:[UIImage imageNamed:@"resource.bundle/ocr_flash-off.png"] forState:UIControlStateNormal];
+    [lightButton setImage:[UIImage imageNamed:@"resource.bundle/ocr_flash-on.png"] forState:UIControlStateSelected];
     [lightButton addTarget:self action:@selector(didClickLightButtonAction) forControlEvents:UIControlEventTouchUpInside];
     
     /*⏰ ----- 创建设备对象 ----- ⏰*/
@@ -326,50 +326,5 @@
 }
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
