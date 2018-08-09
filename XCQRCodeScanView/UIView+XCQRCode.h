@@ -1,25 +1,14 @@
 //
-//  UIView+XCExtension.h
-//  常用分类
+//  UIView+XCQRCode.h
+//  XCQRCodeScanfViewExample
 //
-//  Created by 樊小聪 on 2017/2/24.
-//  Copyright © 2017年 樊小聪. All rights reserved.
+//  Created by 樊小聪 on 2018/8/8.
+//  Copyright © 2018年 樊小聪. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-IB_DESIGNABLE
-@interface UIView (XCExtension)
-
-/** 👀 边框圆角半径 👀 */
-@property (assign, nonatomic) IBInspectable CGFloat cornerRadius;
-/** 👀 边框宽度 👀 */
-@property (assign, nonatomic) IBInspectable CGFloat borderWidth;
-/** 👀 边框颜色 👀 */
-@property (weak, nonatomic) IBInspectable UIColor *borderColor;
-
-
-/* 🐖 ***************************** 🐖 华丽的分隔线 🐖 *****************************  🐖 */
+@interface UIView (XCQRCode)
 
 /** frame.origin.x */
 @property (nonatomic) CGFloat left;
@@ -51,27 +40,4 @@ IB_DESIGNABLE
 /** frame.origin.size */
 @property (nonatomic) CGSize size;
 
-
-
-
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

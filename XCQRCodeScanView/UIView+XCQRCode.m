@@ -1,51 +1,14 @@
 //
-//  UIView+XCExtension.m
-//  常用分类
+//  UIView+XCQRCode.m
+//  XCQRCodeScanfViewExample
 //
-//  Created by 樊小聪 on 2017/2/24.
-//  Copyright © 2017年 樊小聪. All rights reserved.
+//  Created by 樊小聪 on 2018/8/8.
+//  Copyright © 2018年 樊小聪. All rights reserved.
 //
 
-#import "UIView+XCExtension.h"
+#import "UIView+XCQRCode.h"
 
-
-@implementation UIView (XCExtension)
-
-- (CGFloat)cornerRadius
-{
-    return self.layer.cornerRadius;
-}
-
-- (void)setCornerRadius:(CGFloat)cornerRadius
-{
-    if (cornerRadius < 0.01f)       return;
-    
-    self.layer.cornerRadius = cornerRadius;
-}
-
-
-- (UIColor *)borderColor
-{
-    return [UIColor colorWithCGColor:self.layer.borderColor];
-}
-
-- (void)setBorderColor:(UIColor *)borderColor
-{
-    self.layer.borderColor = borderColor.CGColor;
-}
-
-
-- (CGFloat)borderWidth
-{
-    return self.layer.borderWidth;
-}
-
-- (void)setBorderWidth:(CGFloat)borderWidth
-{
-    self.layer.borderWidth = borderWidth;
-}
-
-/* 🐖 ***************************** 🐖 华丽的分隔线 🐖 *****************************  🐖 */
+@implementation UIView (XCQRCode)
 
 - (CGFloat)left {
     return CGRectGetMinX(self.frame);
@@ -145,18 +108,3 @@
 
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -12,10 +12,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XCQRCodeScanfView : UIView
+@interface XCQRCodeScanView : UIView
 
 /** 👀 扫描完成的回调 👀 */
-@property (copy, nonatomic) void(^completionHandle)(NSString *result, BOOL isSuccess);
+@property (copy, nonatomic) void(^completionHandle)(XCQRCodeScanView *scanView, NSString *result, BOOL isSuccess);
 
 
 /** 👀 开始扫描 👀 */

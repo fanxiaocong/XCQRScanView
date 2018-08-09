@@ -15,9 +15,11 @@
 		1E088FCA1E7280AB00FE43FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E088FC81E7280AB00FE43FF /* LaunchScreen.storyboard */; };
 		1E088FD51E7280AB00FE43FF /* XCQRCodeScanfViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088FD41E7280AB00FE43FF /* XCQRCodeScanfViewExampleTests.m */; };
 		1E088FE01E7280AB00FE43FF /* XCQRCodeScanfViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088FDF1E7280AB00FE43FF /* XCQRCodeScanfViewExampleUITests.m */; };
-		1E088FF01E7280EC00FE43FF /* XCQRCodeScanfView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088FEF1E7280EC00FE43FF /* XCQRCodeScanfView.m */; };
-		1E088FF91E763A9300FE43FF /* UIView+XCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088FF81E763A9300FE43FF /* UIView+XCExtension.m */; };
-		1E0BED731F73538100D3B5FB /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E0BED721F73538100D3B5FB /* resource.bundle */; };
+		1E6C2668211AFD5900C695ED /* XCQRCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C2661211AFD5900C695ED /* XCQRCodeButton.m */; };
+		1E6C2669211AFD5900C695ED /* UIView+XCQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C2662211AFD5900C695ED /* UIView+XCQRCode.m */; };
+		1E6C266A211AFD5900C695ED /* XCQRCodeScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C2663211AFD5900C695ED /* XCQRCodeScanView.m */; };
+		1E6C266B211AFD5900C695ED /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E6C2666211AFD5900C695ED /* resource.bundle */; };
+		1E7E0A9D211BCE0F0041E032 /* XCQRCodeUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E0A9C211BCE0F0041E032 /* XCQRCodeUnit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +56,15 @@
 		1E088FDB1E7280AB00FE43FF /* XCQRCodeScanfViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCQRCodeScanfViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E088FDF1E7280AB00FE43FF /* XCQRCodeScanfViewExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCQRCodeScanfViewExampleUITests.m; sourceTree = "<group>"; };
 		1E088FE11E7280AB00FE43FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E088FEE1E7280EC00FE43FF /* XCQRCodeScanfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCQRCodeScanfView.h; sourceTree = "<group>"; };
-		1E088FEF1E7280EC00FE43FF /* XCQRCodeScanfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCQRCodeScanfView.m; sourceTree = "<group>"; };
-		1E088FF71E763A9300FE43FF /* UIView+XCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XCExtension.h"; sourceTree = "<group>"; };
-		1E088FF81E763A9300FE43FF /* UIView+XCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCExtension.m"; sourceTree = "<group>"; };
-		1E0BED721F73538100D3B5FB /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		1E6C2661211AFD5900C695ED /* XCQRCodeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCQRCodeButton.m; sourceTree = "<group>"; };
+		1E6C2662211AFD5900C695ED /* UIView+XCQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCQRCode.m"; sourceTree = "<group>"; };
+		1E6C2663211AFD5900C695ED /* XCQRCodeScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCQRCodeScanView.m; sourceTree = "<group>"; };
+		1E6C2664211AFD5900C695ED /* XCQRCodeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCQRCodeButton.h; sourceTree = "<group>"; };
+		1E6C2665211AFD5900C695ED /* UIView+XCQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XCQRCode.h"; sourceTree = "<group>"; };
+		1E6C2666211AFD5900C695ED /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		1E6C2667211AFD5900C695ED /* XCQRCodeScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCQRCodeScanView.h; sourceTree = "<group>"; };
+		1E7E0A9B211BCE0F0041E032 /* XCQRCodeUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCQRCodeUnit.h; sourceTree = "<group>"; };
+		1E7E0A9C211BCE0F0041E032 /* XCQRCodeUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCQRCodeUnit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +95,7 @@
 		1E088FAE1E7280AA00FE43FF = {
 			isa = PBXGroup;
 			children = (
-				1E088FED1E7280D400FE43FF /* XCQRCodeScanfView */,
+				1E6C2660211AFD5900C695ED /* XCQRCodeScanView */,
 				1E088FB91E7280AA00FE43FF /* XCQRCodeScanfViewExample */,
 				1E088FD31E7280AB00FE43FF /* XCQRCodeScanfViewExampleTests */,
 				1E088FDE1E7280AB00FE43FF /* XCQRCodeScanfViewExampleUITests */,
@@ -149,16 +155,20 @@
 			path = XCQRCodeScanfViewExampleUITests;
 			sourceTree = "<group>";
 		};
-		1E088FED1E7280D400FE43FF /* XCQRCodeScanfView */ = {
+		1E6C2660211AFD5900C695ED /* XCQRCodeScanView */ = {
 			isa = PBXGroup;
 			children = (
-				1E0BED721F73538100D3B5FB /* resource.bundle */,
-				1E088FEE1E7280EC00FE43FF /* XCQRCodeScanfView.h */,
-				1E088FEF1E7280EC00FE43FF /* XCQRCodeScanfView.m */,
-				1E088FF71E763A9300FE43FF /* UIView+XCExtension.h */,
-				1E088FF81E763A9300FE43FF /* UIView+XCExtension.m */,
+				1E6C2667211AFD5900C695ED /* XCQRCodeScanView.h */,
+				1E6C2663211AFD5900C695ED /* XCQRCodeScanView.m */,
+				1E6C2664211AFD5900C695ED /* XCQRCodeButton.h */,
+				1E6C2661211AFD5900C695ED /* XCQRCodeButton.m */,
+				1E6C2665211AFD5900C695ED /* UIView+XCQRCode.h */,
+				1E6C2662211AFD5900C695ED /* UIView+XCQRCode.m */,
+				1E7E0A9B211BCE0F0041E032 /* XCQRCodeUnit.h */,
+				1E7E0A9C211BCE0F0041E032 /* XCQRCodeUnit.m */,
+				1E6C2666211AFD5900C695ED /* resource.bundle */,
 			);
-			path = XCQRCodeScanfView;
+			path = XCQRCodeScanView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +238,8 @@
 				TargetAttributes = {
 					1E088FB61E7280AA00FE43FF = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 37L38B7YGT;
+						ProvisioningStyle = Manual;
 					};
 					1E088FCF1E7280AB00FE43FF = {
 						CreatedOnToolsVersion = 8.1;
@@ -269,8 +280,8 @@
 			files = (
 				1E088FCA1E7280AB00FE43FF /* LaunchScreen.storyboard in Resources */,
 				1E088FC71E7280AB00FE43FF /* Assets.xcassets in Resources */,
+				1E6C266B211AFD5900C695ED /* resource.bundle in Resources */,
 				1E088FC51E7280AB00FE43FF /* Main.storyboard in Resources */,
-				1E0BED731F73538100D3B5FB /* resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6C2668211AFD5900C695ED /* XCQRCodeButton.m in Sources */,
 				1E088FC21E7280AB00FE43FF /* ViewController.m in Sources */,
-				1E088FF01E7280EC00FE43FF /* XCQRCodeScanfView.m in Sources */,
+				1E6C2669211AFD5900C695ED /* UIView+XCQRCode.m in Sources */,
 				1E088FBF1E7280AB00FE43FF /* AppDelegate.m in Sources */,
+				1E7E0A9D211BCE0F0041E032 /* XCQRCodeUnit.m in Sources */,
 				1E088FBC1E7280AB00FE43FF /* main.m in Sources */,
-				1E088FF91E763A9300FE43FF /* UIView+XCExtension.m in Sources */,
+				1E6C266A211AFD5900C695ED /* XCQRCodeScanView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,10 +459,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 37L38B7YGT;
 				INFOPLIST_FILE = XCQRCodeScanfViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ylh.XCQRCodeScanfViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eling.secretary.yasyy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0bcbe55d-387b-4379-bde4-d9d5b4dd7196";
+				PROVISIONING_PROFILE_SPECIFIER = YaAnSecreteryDevelopment;
 			};
 			name = Debug;
 		};
@@ -457,10 +474,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 37L38B7YGT;
 				INFOPLIST_FILE = XCQRCodeScanfViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ylh.XCQRCodeScanfViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eling.secretary.yasyy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0bcbe55d-387b-4379-bde4-d9d5b4dd7196";
+				PROVISIONING_PROFILE_SPECIFIER = YaAnSecreteryDevelopment;
 			};
 			name = Release;
 		};
