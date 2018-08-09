@@ -21,17 +21,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    XCQRCodeScanView *view = [[XCQRCodeScanView alloc] initWithFrame:self.view.bounds];
-    [view startScanf];
-    view.completionHandle = ^(XCQRCodeScanView *scanView, NSString *result, BOOL isSuccess) {
-        if (isSuccess) {
-            NSLog(@"识别成功---信息：%@", result);
-        } else {
-            NSLog(@"识别失败");
-        }
-        [scanView stopScanf];
-    };
-    [self.view addSubview:view];
+//    XCQRCodeScanView *view = [[XCQRCodeScanView alloc] initWithFrame:self.view.bounds];
+//    [view startScanf];
+//    view.completionHandle = ^(XCQRCodeScanView *scanView, NSString *result, BOOL isSuccess) {
+//        if (isSuccess) {
+//            NSLog(@"识别成功---信息：%@", result);
+//        } else {
+//            NSLog(@"识别失败");
+//        }
+//        [scanView stopScanf];
+//    };
+//    [self.view addSubview:view];
 }
 
 
